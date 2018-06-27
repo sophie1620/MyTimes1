@@ -10,6 +10,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  z-index: 1;
 }
 
 header span {
@@ -42,3 +43,27 @@ li {
 
 
 /*main content*/
+
+.column {
+  display: flex;
+  width:100%;
+  border: 1px solid black;
+  display-direction: column;
+  height: 1000px;
+  margin-top: 85px;
+}
+
+.column .large {
+  border: 1px solid black;
+  width: 630px;
+}
+
+.medium {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.small {
+  border: 1px solid black;
+  width: 240px;
+}
